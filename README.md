@@ -108,3 +108,10 @@ python /detectron/tools/train_net.py --cfg /detectron/project/e2e_mask_rcnn_R-10
 ``` bash
 python /detectron/tools/infer_simple.py --cfg /detectron/project/e2e_mask_rcnn_R-101-FPN_2x.yaml --output-dir /detectron/project/predict --image-ext jpg --wts /detectron/project/model/train/coco_helmet_train\:coco_helmet_train/generalized_rcnn/model_final.pkl /detectron/project/test
 ```
+
+## 参考资料
+* [Detectron](https://github.com/facebookresearch/Detectron)
+* [使用Detectron进行目标检测](https://zhuanlan.zhihu.com/p/34036460)
+* [Latest pyyaml expecting class but getting function](https://github.com/facebookresearch/Detectron/issues/840)
+* [detectron——test 错误集锦](https://www.cnblogs.com/nanzhao/p/moon.html)
+* [Create your own COCO-style datasets](https://patrickwasp.com/create-your-own-coco-style-dataset/)
